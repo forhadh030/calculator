@@ -5,6 +5,7 @@ const display_output = document.querySelector('.display .output');
 let input = "";
 
 for (let key of keys) {
+	
 	const value = key.dataset.key;
 
 	key.addEventListener('click', () => {
