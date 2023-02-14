@@ -107,7 +107,6 @@ function ValidateInput (value) {
 			return true;
 		}
 	}
-
 	return true;
 }
 
