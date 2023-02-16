@@ -5,7 +5,7 @@ const display_output = document.querySelector('.display .output');
 let input = "";
 
 for (let key of keys) {
-	
+
 	const value = key.dataset.key;
 
 	key.addEventListener('click', () => {
@@ -39,6 +39,7 @@ for (let key of keys) {
 			}
 
 			display_input.innerHTML = CleanInput(input);
+			
 		} else {
 			if (ValidateInput(value)) {
 				input += value;
