@@ -39,7 +39,7 @@ for (let key of keys) {
 			}
 
 			display_input.innerHTML = CleanInput(input);
-			
+
 		} else {
 			if (ValidateInput(value)) {
 				input += value;
@@ -50,6 +50,7 @@ for (let key of keys) {
 }
 
 function CleanInput(input) {
+	
 	let input_array = input.split("");
 	let input_array_length = input_array.length;
 
