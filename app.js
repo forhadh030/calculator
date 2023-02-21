@@ -50,7 +50,7 @@ for (let key of keys) {
 }
 
 function CleanInput(input) {
-	
+
 	let input_array = input.split("");
 	let input_array_length = input_array.length;
 
@@ -71,6 +71,7 @@ function CleanInput(input) {
 			input_array[i] = `<span class="percent">%</span>`;
 		}
 	}
+	
 	return input_array.join("");
 }
 
