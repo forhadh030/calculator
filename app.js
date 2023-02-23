@@ -71,7 +71,6 @@ function CleanInput(input) {
 			input_array[i] = `<span class="percent">%</span>`;
 		}
 	}
-	
 	return input_array.join("");
 }
 
