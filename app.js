@@ -41,6 +41,7 @@ for (let key of keys) {
 			display_input.innerHTML = CleanInput(input);
 
 		} else {
+			
 			if (ValidateInput(value)) {
 				input += value;
 				display_input.innerHTML = CleanInput(input);
