@@ -16,12 +16,13 @@ for (let key of keys) {
 		} else if (value == "backspace") {
 			input = input.slice(0, -1);
 			display_input.innerHTML = CleanInput(input);
+			
 		} else if (value == "=") {
 			let result = eval(PerpareInput(input));
 
 			display_output.innerHTML = CleanOutput(result);
 		} else if (value == "brackets") {
-			
+
 			if (
 				input.indexOf("(") == -1 || 
 				input.indexOf("(") != -1 && 
