@@ -9,6 +9,7 @@ for (let key of keys) {
 	const value = key.dataset.key;
 
 	key.addEventListener('click', () => {
+		
 		if (value == "clear") {
 			input = "";
 			display_input.innerHTML = "";
@@ -16,7 +17,7 @@ for (let key of keys) {
 		} else if (value == "backspace") {
 			input = input.slice(0, -1);
 			display_input.innerHTML = CleanInput(input);
-			
+
 		} else if (value == "=") {
 			let result = eval(PerpareInput(input));
 
