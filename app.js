@@ -126,6 +126,5 @@ function PerpareInput (input) {
 			input_array[i] = "/100";
 		}
 	}
-
 	return input_array.join("");
 }
