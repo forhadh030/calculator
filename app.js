@@ -119,6 +119,7 @@ function ValidateInput (value) {
 }
 
 function PerpareInput (input) {
+	
 	let input_array = input.split("");
 
 	for (let i = 0; i < input_array.length; i++) {
