@@ -119,7 +119,7 @@ function ValidateInput (value) {
 }
 
 function PerpareInput (input) {
-	
+
 	let input_array = input.split("");
 
 	for (let i = 0; i < input_array.length; i++) {
@@ -127,5 +127,6 @@ function PerpareInput (input) {
 			input_array[i] = "/100";
 		}
 	}
+	
 	return input_array.join("");
 }
