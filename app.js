@@ -80,6 +80,7 @@ function CleanInput(input) {
 }
 
 function CleanOutput (output) {
+	
 	let output_string = output.toString();
 	let decimal = output_string.split(".")[1];
 	output_string = output_string.split(".")[0];
@@ -101,7 +102,7 @@ function CleanOutput (output) {
 }
 
 function ValidateInput (value) {
-	
+
 	let last_input = input.slice(-1);
 	let operators = ["+", "-", "*", "/"];
 
