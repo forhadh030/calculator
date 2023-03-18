@@ -80,11 +80,10 @@ function CleanInput(input) {
 }
 
 function CleanOutput (output) {
-	
+
 	let output_string = output.toString();
 	let decimal = output_string.split(".")[1];
 	output_string = output_string.split(".")[0];
-
 	let output_array = output_string.split("");
 	
 	if (output_array.length > 3) {
