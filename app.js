@@ -16,7 +16,6 @@ for (let key of keys) {
 		} else if (value == "backspace") {
 			input = input.slice(0, -1);
 			display_input.innerHTML = CleanInput(input);
-
 		} else if (value == "=") {
 			let result = eval(PerpareInput(input));
 
