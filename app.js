@@ -21,7 +21,6 @@ for (let key of keys) {
 
 			display_output.innerHTML = CleanOutput(result);
 		} else if (value == "brackets") {
-
 			if (
 				input.indexOf("(") == -1 || 
 				input.indexOf("(") != -1 && 
