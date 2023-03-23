@@ -38,7 +38,6 @@ for (let key of keys) {
 				input += ")";
 			}
 			display_input.innerHTML = CleanInput(input);
-
 		} else {
 
 			if (ValidateInput(value)) {
