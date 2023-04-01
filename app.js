@@ -48,7 +48,6 @@ for (let key of keys) {
 }
 
 function CleanInput(input) {
-
 	let input_array = input.split("");
 	let input_array_length = input_array.length;
 
