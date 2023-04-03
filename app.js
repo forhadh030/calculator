@@ -52,6 +52,7 @@ function CleanInput(input) {
 	let input_array_length = input_array.length;
 
 	for (let i = 0; i < input_array_length; i++) {
+		
 		if (input_array[i] == "*") {
 			input_array[i] = ` <span class="operator">x</span> `;
 		} else if (input_array[i] == "/") {
